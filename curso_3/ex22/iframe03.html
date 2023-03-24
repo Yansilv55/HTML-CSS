@@ -16,6 +16,14 @@
             border: 2px solid black;
         }
 
+        .link {
+            text-decoration: none;
+        }
+
+        .link:hover {
+            color: blue;
+        }
+
         
     </style>
 </head>
@@ -24,14 +32,14 @@
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In architecto, inventore assumenda, enim nesciunt, necessitatibus esse quis ipsam maxime possimus sunt? Nobis inventore fugiat, distinctio id accusantium voluptatum quaerat architecto!</p>
 
     <ul>
-        <li><a href="paginas/pag01.html" target="frame">Primeira página</a></li>
-        <li><a href="paginas/pag02.html" target="frame">Segunda página</a></li>
-        <li><a href="paginas/pag03.html" target="frame">Terceira página</a></li>
+        <li><a class="link" href="paginas/pag01.html" target="frame">Primeira página</a></li>
+        <li><a class="link" href="paginas/pag02.html" target="frame">Segunda página</a></li>
+        <li><a class="link" href="paginas/pag03.html" target="frame">Terceira página</a></li>
     </ul>
 
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab consequatur ullam perspiciatis voluptatem pariatur vero dolore consequuntur reiciendis, libero, veritatis facere repellat quae ipsam labore, quod veniam maiores laboriosam consectetur.</p>
 
-    <iframe id="tela" name="frame" src="">
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha umas dessas opções acima</h1>">
         <p>Infelizmente seu navegador não é compativel com isso.</p>
     </iframe>
 
