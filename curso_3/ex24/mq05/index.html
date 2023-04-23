@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Query</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis accusamus numquam praesentium aliquid, unde magnam, minima, facilis reprehenderit provident suscipit modi quidem dignissimos harum odit sapiente iusto corporis sit esse! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis molestias modi consequuntur obcaecati quis repellat porro ullam temporibus, reprehenderit facere nemo illo et possimus ducimus molestiae magnam nihil. Ducimus, eum! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, provident commodi inventore debitis cupiditate praesentium vero </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis accusamus numquam praesentium aliquid, unde magnam, minima, facilis reprehenderit provident suscipit modi quidem dignissimos harum odit sapiente iusto corporis sit esse! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis molestias modi consequuntur obcaecati quis repellat porro ullam temporibus, reprehenderit facere nemo illo et possimus ducimus molestiae magnam nihil. Ducimus, eum! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, provident commodi inventore debitis cupiditate praesentium vero . </p>
+            <p> repellat porro ullam temporibus, reprehenderit facere nemo illo et possimus ducimus molestiae magnam nihil. Ducimus, eum! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, provident commodi inventore debitis cupiditate praesentium vero pariatur deserunt reprehenderit distinctio nam a autem ipsa deleniti saepe aperiam numquam! Eos, repellat! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet incidunt quo est laborum delectus, suscipit vel eligendi! A et cumque omnis eligendi saepe temporibus esse unde harum, molestias itaque nemo! Lorem ipsum dolor, sit amet consectetur , </p></p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+           if (itens.style.display == 'block') {
+            itens.style.display = 'none'
+           } else {
+            itens.style.display = 'block'
+           }
+        }
+    </script>
+</body>
+</html>
